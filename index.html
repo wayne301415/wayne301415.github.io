@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html>
+	<head lan ="en">
+		<meta charset ="utf-48">
+		<meta name ="author" content ="B09901067">
+		<meta name ="description" name =Homework">
+
+		<title>HW3</title>
+		<base target ="_blank">
+
+		<link rel ="icon" href ="https://img12.360buyimg.com/n1/jfs/t1/135047/14/1787/346997/5ededa8bE8802cc62/ba8e9f6957c00c89.png">
+
+		<style>
+			body{color: orange; background: center; background-color: #202050; margin-left: 525px;}
+			h1{color: white;}
+			a{color: #A1bbFF;}
+			a:hover {color: red;}
+		</style>
+
+		<script>
+			let currentTime;
+		</script>
+	</head>
+
+	<body>
+		<audio autoplay loop><source src="music.mp3"></audio>
+
+		<h1>Homework 3</h1>
+
+		<h2>brief biography</h2>
+		<ul>
+			<li>
+				my high school: <a href ="https://tcfsh.tc.edu.tw"/>Taichung Municipal Taichung First Senior High School</a>
+			</li>
+
+			<li>
+				The department I major: <a href ="https://web.ee.ntu.edu.tw/">NTUEE</a>
+			</li>
+		</ul>
+
+		<h2>three of my hobbies</h2>
+		<ol>
+			<li>
+				<a title ="Youtube" href ="https://www.youtube.com/">watch videos</a>
+			</li>
+
+			<li>
+				<a title ="博客來" href ="https://www.books.com.tw/">read books</a>
+			</li>
+
+			<li>
+				<a title ="webwork" href ="http://webwork.math.ntu.edu.tw/webwork2">do calculus</a>
+			</li>
+		</ol>
+
+		<h2>image</h2>
+		<img src ="http://4.bp.blogspot.com/-rLGDvHOF-Mk/TtCtwd6mbiI/AAAAAAAAAI8/jNDCdRnO4-Q/s1600/4PLMKOIJNB.jpg"
+				     title ="Misaka Mikodo" width ="500" heigh ="400"><br>
+		
+		<p id ="t" style ="color: #DDDDDD"></p>
+
+		<script>
+			function updateTime()
+			{
+				setTimeout(updateTime, 1000);
+
+				let date = new Date();
+
+				let time = (date.getMonth()+1) + '-' + date.getDate() + '-' + date.getFullYear() + ' ' + date.getHours() + ":" + date.getMinutes() + ":";
+
+				s =date.getSeconds();
+				
+				time += s < 10 ? (' ' + s) : s;
+
+				document.getElementById("t").innerHTML =time;
+				
+				delete date;
+			}
+			
+			 updateTime();
+		</script>
+
+	</body>
+</html>
