@@ -1,80 +1,649 @@
 <!DOCTYPE html>
-<html>
-	<head lan ="en">
-		<meta charset ="utf-48">
-		<meta name ="author" content ="B09901067">
-		<meta name ="description" name =Homework">
+<html lang="en">
 
-		<title>HW3</title>
-		<base target ="_blank">
+<head>
+  <meta charset="utf-8">
+  <meta content="width=device-width, initial-scale=1.0" name="viewport">
 
-		<link rel ="icon" href ="https://img12.360buyimg.com/n1/jfs/t1/135047/14/1787/346997/5ededa8bE8802cc62/ba8e9f6957c00c89.png">
+  <title>臺大傳醫 &nbsp;— &nbsp;中草藥心理測驗</title>
+  <meta content="" name="description">
+  <meta content="" name="keywords">
 
-		<style>
-			body{color: orange; background: center; background-color: #202050; margin-left: 525px;}
-			h1{color: white;}
-			a{color: #A1bbFF;}
-			a:hover {color: red;}
-		</style>
-	</head>
+  <!-- Favicons -->
+  <link href="assets/img/favicon.png" rel="icon">
+  <link href="assets/img/favicon.png" rel="apple-touch-icon">
 
-	<body>
-		<audio autoplay loop controls><source src="music.mp3"></audio>
+  <!-- Google Fonts -->
+  <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,300i,400,400i,700,700i|Poppins:300,400,500,700" rel="stylesheet">
 
-		<h1>Homework 3</h1>
+  <!-- Vendor CSS Files -->
+  <link href="assets/vendor/aos/aos.css" rel="stylesheet">
+  <link href="assets/vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+  <link href="assets/vendor/bootstrap-icons/bootstrap-icons.css" rel="stylesheet">
+  <link href="assets/vendor/boxicons/css/boxicons.min.css" rel="stylesheet">
+  <link href="assets/vendor/glightbox/css/glightbox.min.css" rel="stylesheet">
+  <link href="assets/vendor/swiper/swiper-bundle.min.css" rel="stylesheet">
 
-		<h2>brief biography</h2>
-		<ul>
-			<li>
-				my high school: <a href ="https://tcfsh.tc.edu.tw"/>Taichung Municipal Taichung First Senior High School</a>
-			</li>
+  <!-- Template Main CSS File -->
+  <link href="assets/css/style.css" rel="stylesheet">
 
-			<li>
-				The department I major: <a href ="https://web.ee.ntu.edu.tw/">NTUEE</a>
-			</li>
-		</ul>
+  <!-- =======================================================
+  * Template Name: Regna - v4.3.0
+  * Template URL: https://bootstrapmade.com/regna-bootstrap-onepage-template/
+  * Author: BootstrapMade.com
+  * License: https://bootstrapmade.com/license/
+  ======================================================== -->
+</head>
 
-		<h2>three of my hobbies</h2>
-		<ol>
-			<li>
-				<a title ="Youtube" href ="https://www.youtube.com/">watch videos</a>
-			</li>
+<body onload ="init();">
 
-			<li>
-				<a title ="博客來" href ="https://www.books.com.tw/">read books</a>
-			</li>
+  <!-- ======= Header ======= -->
+  <header id="header" class="fixed-top d-flex align-items-center header-transparent">
+    <div class="container d-flex justify-content-between align-items-center">
 
-			<li>
-				<a title ="webwork" href ="http://webwork.math.ntu.edu.tw/webwork2">do calculus</a>
-			</li>
-		</ol>
+      <div id="logo">
+        <a href="index.html"><img src="assets/img/logo.png" alt=""></a>
+        <!-- Uncomment below if you prefer to use a text logo -->
+        <!--<h1><a href="index.html">Regna</a></h1>-->
+      </div>
 
-		<h2>image</h2>
-		<img src ="http://4.bp.blogspot.com/-rLGDvHOF-Mk/TtCtwd6mbiI/AAAAAAAAAI8/jNDCdRnO4-Q/s1600/4PLMKOIJNB.jpg"
-				     title ="Misaka Mikodo" width ="500" heigh ="400"><br>
-		
-		<p id ="t" style ="color: #DDDDDD"></p>
+      <nav id="navbar" class="navbar">
+        <ul>
+          <li class="dropdown"><a href="#hero"><span>心理測驗</span> <i class="bi bi-chevron-down"></i></a>
+            <ul>
+              <li><a href="#q1">第一題</a></li>
+              <li><a href="#q2">第二題</a></li>
+              <li><a href="#q3">第三題</a></li>
+              <li><a href="#q4">第四題</a></li>
+              <li><a href="#q5">第五題</a></li>
+              <li><a href="#q6">第六題</a></li>
+              <li><a href="#q7">第七題</a></li>
+              <li><a href="#q8">第八題</a></li>
+              <li><a href="#qL">第九題</a></li>
+            </ul>
+          </li>
+          <li><a class="nav-link scrollto " href="#portfolio">中藥介紹</a></li>
+        </ul>
+        <i class="bi bi-list mobile-nav-toggle"></i>
+      </nav><!-- .navbar -->
+    </div>
+  </header><!-- End Header -->
 
-		<script>
-			function updateTime()
-			{
-				setTimeout(updateTime, 1000);
+  <!-- ======= Hero Section ======= -->
+  <section id="hero">
+    <div class="hero-container" data-aos="zoom-in" data-aos-delay="100">
+      <div class="icon-box">
+        <div class="box"><img class ="title_icon" src ="assets/img/title_icon.png"></div>
+        <div class ="box">
+          <h1>你是哪種中藥材？</h1>
+          <p class="description">九題的心理測驗<br/>最後還有各種中藥介紹喔</p>
+        </div>
+      </div>
+      <a href="#q1" class="btn-get-started">開始測驗</a>
+    </div>
+  </section><!-- End Hero Section -->
 
-				let date = new Date();
+  <main id="main">
+    <!-- ======= Question 1 ======= -->
+    <section class="questionStyle1" id ="q1">
+      <div class="container" data-aos="fade-up">
+        <div class="row" data-aos="zoom-in">
+          <div class="question text-center text-lg-start">
+            <h3 class="title">問題一</h3>
+            <p class="text">炎熱的夏天，你想要去往何處度過一個美好的假期 ?</p>
+          </div>
+          <div class="btn-container text-center">
+            <a class="choice-btn align-middle" id ="q1-1" href ="#q2" onclick="selected(0, 1, '1-1');">熱鬧的沙灘海邊</a>
+            <a class="choice-btn align-middle" id ="q1-2" href ="#q2" onclick="selected(0, 0, '1-2');">涼爽寧靜的山林</a>
+          </div>
+        </div>
 
-				let time = (date.getMonth()+1) + '-' + date.getDate() + '-' + date.getFullYear() + ' ' + date.getHours() + ":" + date.getMinutes() + ":";
+      </div>
+    </section>
+    <!-- End Question 1 -->
 
-				s =date.getSeconds();
-				
-				time += s < 10 ? ('0' + s) : s;
+    <!-- ======= Question 2 ======= -->
+    <section class="questionStyle2" id ="q2">
+      <div class="container" data-aos="fade-up">
+        <div class="row">
+          <div class="question text-center text-lg-start">
+            <h3 class="title">問題二</h3>
+            <p class="text">臺大課程網當掉了怎麼辦 ?</p>
+          </div>
+          <div class="btn-container text-center">
+            <a class="choice-btn align-middle" id ="q2-1" href ="#q3" onclick="selected(1, 1, '2-1');">瘋狂刷新網頁</a>
+            <a class="choice-btn align-middle" id ="q2-2" href ="#q3" onclick="selected(1, 0, '2-2');">直接成為加簽戰士</a>
+          </div>
+        </div>
 
-				document.getElementById("t").innerHTML =time;
-				
-				delete date;
-			}
-			
-			 updateTime();
-		</script>
+      </div>
+    </section>
+    <!-- End Question 2 -->
 
-	</body>
+    <!-- ======= Question 3 ======= -->
+    <section class="questionStyle1" id ="q3">
+      <div class="container" data-aos="fade-right">
+        <div class="row">
+          <div class="question text-center text-lg-start">
+            <h3 class="title">問題三</h3>
+            <p class="text">遠距教學嗆老師時不小心開到麥，你會 ?</p>
+          </div>
+          <div class="btn-container text-center">
+            <a class="choice-btn align-middle" id ="q3-1" href ="#q4" onclick="selected(0, 0, '3-1');">默默離開會議</a>
+            <a class="choice-btn align-middle" id ="q3-2" href ="#q4" onclick="selected(0, 0, '3-2');">管他的嗆爆</a>
+          </div>
+        </div>
+
+      </div>
+    </section>
+    <!-- End Question 3 -->
+
+    <!-- ======= Question 4 ======= -->
+    <section class="questionStyle2" id ="q4">
+      <div class="container" data-aos="fade-up">
+        <div class="row">
+          <div class="question text-center text-lg-start">
+            <h3 class="title">問題四</h3>
+            <p class="text">和朋友約好了一起出去聚餐，你會 ?</p>
+          </div>
+          <div class="btn-container text-center">
+            <a class="choice-btn align-middle" id ="q4-1" href ="#q5" onclick="selected(0, 0, '4-1');">先查查餐廳評價，連吃甚麼都先選好</a>
+            <a class="choice-btn align-middle" id ="q4-2" href ="#q5" onclick="selected(0, 1, '4-2');">說走就走，看到哪間餐廳想吃就去吃</a>
+          </div>
+        </div>
+
+      </div>
+    </section>
+    <!-- End Question 4 -->
+
+    <!-- ======= Question 5 ======= -->
+    <section class="questionStyle1" id ="q5">
+      <div class="container" data-aos="fade-left">
+        <div class="row">
+          <div class="question text-center text-lg-start">
+            <h3 class="title">完成一半了</h3>
+            <p class="text">在醉月湖散步時，突然一隻大白鵝凶狠地往你衝過來，你會 ?</p>
+          </div>
+          <div class="btn-container text-center">
+            <a class="choice-btn align-middle" id ="q5-1" href ="#q6" onclick="selected(1, 0, '5-1');">拿起手機拍下憤怒鵝梗圖</a>
+            <a class="choice-btn align-middle" id ="q5-2" href ="#q6" onclick="selected(1, 1, '5-2');">立刻轉身，迅速地跑走</a>
+          </div>
+        </div>
+
+      </div>
+    </section>
+    <!-- End Question 5 -->
+
+    <!-- ======= Question 6 ======= -->
+    <section class="questionStyle2" id ="q6">
+      <div class="container" data-aos="fade-up">
+        <div class="row">
+          <div class="question text-center text-lg-start">
+            <h3 class="title">第六題</h3>
+            <p class="text">在椰林大道上騎車看到穿山甲，你會 ?</p>
+          </div>
+          <div class="btn-container text-center">
+            <a class="choice-btn align-middle" id ="q6-1" href ="#q7" onclick="selected(0, 0, '6-1');">穿山甲ㄟ！這可以養嗎？</a>
+            <a class="choice-btn align-middle" id ="q6-2" href ="#q7" onclick="selected(0, 0, '6-2');">讓牠繼續漫步，不打擾它</a>
+          </div>
+        </div>
+
+      </div>
+    </section>
+    <!-- End Question 6 -->
+
+    <!-- ======= Question 7 ======= -->
+    <section class="questionStyle1" id ="q7">
+      <div class="container" data-aos="fade-up">
+        <div class="row" data-aos="zoom-in">
+          <div class="question text-center text-lg-start">
+            <h3 class="title">倒數三題</h3>
+            <p class="text">對獎發現自己中了威力彩頭獎27億，你會 ?</p>
+          </div>
+          <div class="btn-container text-center">
+            <a class="choice-btn align-middle" id ="q7-1" href ="#q8" onclick="selected(1, 1, '7-1');">撒錢狂歡三天三夜</a>
+            <a class="choice-btn align-middle" id ="q7-2" href ="#q8" onclick="selected(1, 0, '7-2');">認真研究投資規劃</a>
+          </div>
+        </div>
+
+      </div>
+    </section>
+    <!-- End Question 7 -->
+
+    <!-- ======= Question 8 ======= -->
+    <section class="questionStyle2" id ="q8">
+      <div class="container" data-aos="fade-zoom-in">
+        <div class="row">
+          <div class="question text-center text-lg-start">
+            <h3 class="title">問題八</h3>
+            <p class="text">今天你抽到了一張電影票，你會 ?</p>
+          </div>
+          <div class="btn-container text-center">
+            <a class="choice-btn align-middle" id ="q8-1" href ="#qL" onclick="selected(0, 0, '8-1');">自己一個人去看電影</a>
+            <a class="choice-btn align-middle" id ="q8-2" href ="#qL" onclick="selected(0, 1, '8-2');">藉機揪團看電影，逛街</a>
+          </div>
+        </div>
+
+      </div>
+    </section>
+    <!-- End Question 8 -->
+
+    <!-- ======= Question Last ======= -->
+    <section class="questionStyle1" id ="qL">
+      <div class="container" id ="qLContainer">
+        <div class="row" data-aos="zoom-out">
+          <div class="question text-center text-lg-start">
+            <h3 class="title">最後一題</h3>
+            <p class="text" id ="qLSubtitle">你喜歡以下哪個 ?</p>
+          </div>
+          <div class="video-container text-center notseen" id="video">
+            <iframe class="video-display" id="video-player" width="320" height="180" src="" title="A Me-me" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+          </div>
+          <div class="btn-container text-center">
+            <a href ="#qLContainer" class="choice-btn align-middle" id ="qL-1" onclick="selected(0, 0, 'L-1'); ">RkRl</a>
+            <a href ="#qLContainer" class="choice-btn align-middle" id ="qL-2" onclick="selected(0, 0, 'L-2'); ">優惠</a>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- End Question Last -->
+
+    <!-- ======= Check Button ======= -->
+    <section class="questionStyle1" id ="checkBtnSec">
+      <div class="chkButtonContainer text-center">
+        <a href ="#resultSec" class="align-middle" id ="checkBtn" data-aos="fade-zoom-in">看結果</a>
+      </div>
+    </section>
+    <!-- End Check Button -->
+
+    <!-- ======= Result ======= -->
+    <section class ="notseen" id ="resultSec">
+      <div class="container card" data-aos="fade-up">
+        <div class="section-header">
+          <h3 class="section-title"><span id ="result"></span><span id ="result2"></span></h3>
+          <p class="section-description" id ="resultsub"></p>
+        </div>
+
+        <div class="medicine-box notseen">
+          <div class="img"><img class ="medicineImg" src ="assets/img/medicine/JinYinHua.png"></div>
+          <div class ="intro">
+            <p class="medicineDescription">你是與世無爭的金銀花，不喜歡被關注，喜歡在自己圈子裡，按照自己舒適的步調。朋友可能不多，但都是知心朋友。</p>
+            <p class="medicineDescription">金銀花，性味甘、寒。歸肺、心、胃經。</p>
+            <p class="medicineDescription">清熱解毒，疏散風熱。<br/>常與藥效類似的連翹配伍使用。</p>
+          </div>
+        </div>
+
+        <div class="medicine-box notseen">
+          <div class="img"><img class ="medicineImg" src ="assets/img/medicine/HuangLian.png"></div>
+          <div class ="intro">
+            <p class="medicineDescription">你是一個外表高冷，卻情緒敏感的人，有很強的自我意識，不願有求於人，寧願自己走些彎路，也不願主動請他人幫助。</p>
+            <p class="medicineDescription">黃連，性味苦、寒。歸心、肝、胃、大腸經。</p>
+            <p class="medicineDescription">清熱燥濕，瀉火解毒。<br/>惟其性燥，陰虛火旺者慎用。</p>
+          </div>
+        </div>
+
+        <div class="medicine-box notseen">
+          <div class="img"><img class ="medicineImg" src ="assets/img/medicine/GanTsao.png"></div>
+          <div class ="intro">
+            <p class="medicineDescription">你是一個低調、默默貢獻心力的人，喜歡和夥伴一起享受成果，在團體中雖不是最耀眼的，卻是最不可或缺的角色。</p>
+            <p class="medicineDescription">甘草，性味甘、平。歸心、肺、脾、胃經。</p>
+            <p class="medicineDescription">調和諸藥，益氣補中，緩急止痛。<br/>廣泛使用於各方劑之中。</p>
+          </div>
+        </div>
+
+        <div class="medicine-box notseen">
+          <div class="img"><img class ="medicineImg" src ="assets/img/medicine/BoHe.png"></div>
+          <div class ="intro">
+            <p class="medicineDescription">你的個性文靜內向，遇到陌生人時容易緊張，常煩惱於怎麼交際。不過頭腦清晰的你總是可以有條理地把工作做好。</p>
+            <p class="medicineDescription">薄荷，性味辛、涼。歸肝、肺經。</p>
+            <p class="medicineDescription">疏散風熱，清利頭目，利咽，透疹，疏肝解鬱。</p>
+          </div>
+        </div>
+
+        <div class="medicine-box notseen">
+          <div class="img"><img class ="medicineImg" src ="assets/img/medicine/SanChi.png"></div>
+          <div class ="intro">
+            <p class="medicineDescription">你是一個善於交際且穩重的人，與你相處的人都感到非常的舒適。很容易融入新環境的你，到哪都能左右逢源。</p>
+            <p class="medicineDescription">三七，性味甘、微苦、溫。歸肝、胃經。</p>
+            <p class="medicineDescription">化瘀止血，活血定痛。<br/>各種內外出血證之良藥，亦是價值昂貴的藥材。</p>
+          </div>
+        </div>
+
+        <div class="medicine-box notseen">
+          <div class="img"><img class ="medicineImg" src ="assets/img/medicine/RenShen.png"></div>
+          <div class ="intro">
+            <p class="medicineDescription">你是一個活潑自在的人，總是積極地參與各項活動，即使有時會情緒低落，但很快便可恢復元氣，繼續奮鬥。</p>
+            <p class="medicineDescription">人參，性味甘，微苦微溫。歸心、肺、脾經。</p>
+            <p class="medicineDescription">大補元氣，補脾益肺，生津，安神。<br/>上好之藥。</p>
+          </div>
+        </div>
+
+        <div class="medicine-box notseen">
+          <div class="img"><img class ="medicineImg" src ="assets/img/medicine/RouGuei.png"></div>
+          <div class ="intro">
+            <p class="medicineDescription">你是一個天生的領導者，活潑開朗、待人誠懇，擅長關心別人，身邊的人都可以感受到你的熱情。</p>
+            <p class="medicineDescription">肉桂，性味辛、甘、熱。歸肝、心、脾、腎經。</p>
+            <p class="medicineDescription">補火助陽，散寒止痛，溫經通脈。<br/>性熱，孕婦慎用。</p>
+          </div>
+        </div>
+
+        <div class="medicine-box notseen">
+          <div class="img"><img class ="medicineImg" src ="assets/img/medicine/ShengJiang.png"></div>
+          <div class ="intro">
+            <p class="medicineDescription">活潑外向的你是人群中的開心果，樂觀積極的態度讓你面對困境也不會懼怕。然而有時候會衝動而做出一些蠢事。</p>
+            <p class="medicineDescription">生薑，性味辛、溫。歸肺、脾、胃經。</p>
+            <p class="medicineDescription">發汗散寒，溫中止嘔，溫肺止咳。<br/>一般風寒感冒時使用。</p>
+          </div>
+        </div>
+
+        <div class="playAgainContainer text-center notseen">
+          <a href ="#q1" class="align-middle" id ="playAgain" data-aos="fade-zoom-in">再玩一次</a>
+          <div class="text-center"><p>下方還有其他藥草的介紹喔</p></div>
+        </div>
+        
+      </div>
+    </section>
+    <!-- End Result -->
+
+    <!-- ======= Portfolio Section ======= -->
+    <section id="portfolio" class="portfolio">
+      <dialog id="medicineIntroDialog">
+        <div class="medicine-box">
+          <div class="img"><img class ="medicineImg" id ="medicineIntroDialogPic"/></div>
+          <div class ="intro">
+            <p class="medicineDescription" id ="medicineIntroDialogDes1"></p>
+            <p class="medicineDescription" id ="medicineIntroDialogDes2"></p>
+            <p class="medicineDescription" id ="medicineIntroDialogDes3"></p>
+            <p class="medicineDescription" id ="medicineIntroDialogDes4"></p>
+
+            <div class ="dialog-btn-container">
+              <a href ="javascript:void(0);" class ="dialogCloseBtn" onclick="closeDialog();">關閉</a>
+              </div>
+          </div>
+          </div>
+      </dialog>
+
+      <div class="container" data-aos="fade-up">
+        <div class="section-header">
+          <h3 class="section-title">常用的中草藥們</h3>
+          <p class="section-description">你認得出幾個呢</p>
+        </div>
+
+        <div class="row" data-aos="fade-up" data-aos-delay="100">
+          <div class="col-lg-12 d-flex justify-content-center">
+            <ul id="portfolio-flters">
+              <li data-filter ="*">全部</li>
+              <li data-filter =".filter-JiehBiao">解表</li>
+              <li data-filter =".filter-ChingRe">清熱</li>
+              <li data-filter =".filter-BuYi">補益</li>
+              <li data-filter =".filter-ChiTa">其他</li>
+            </ul>
+          </div>
+        </div>
+
+
+        <div class="row portfolio-container" data-aos="fade-up" data-aos-delay="200">
+
+          <div class="col-lg-4 col-md-6 portfolio-item filter-JiehBiao"  onclick ="openDialog('GueiJhih');">
+            <img src="assets/img/medicine/_GueiJhih.png" class="img-fluid" alt="">
+            <div class="portfolio-info">
+              <h4>桂枝</h4>
+              <p>辛溫解表</p>
+              <a href="javascript:void(0)" class="details-link" title="查看簡介"><i class="bx bxs-yin-yang"></i></a>
+            </div>
+          </div>
+
+          <div class="col-lg-4 col-md-6 portfolio-item filter-BuYi" onclick ="openDialog('RenShen');">
+            <img src="assets/img/medicine/_RenShen.png" class="img-fluid" alt="">
+            <div class="portfolio-info">
+              <h4>人參</h4>
+              <p>補氣之王</p>
+              <a href="javascript:void(0)" class="details-link" title="查看簡介"><i class="bx bxs-yin-yang"></i></a>
+            </div>
+          </div>
+
+          <div class="col-lg-4 col-md-6 portfolio-item filter-JiehBiao" onclick ="openDialog('MaHuang');">
+            <img src="assets/img/medicine/_MaHuang.png" class="img-fluid" alt="">
+            <div class="portfolio-info">
+              <h4>麻黃</h4>
+              <p>辛溫解表</p>
+              <a href="javascript:void(0)" class="details-link" title="查看簡介"><i class="bx bxs-yin-yang"></i></a>
+            </div>
+          </div>
+
+          <div class="col-lg-4 col-md-6 portfolio-item filter-ChiTa" onclick ="openDialog('BanSia');">
+            <img src="assets/img/medicine/_BanSia.png" class="img-fluid" alt="">
+            <div class="portfolio-info">
+              <h4>半夏</h4>
+              <p>燥濕化痰</p>
+              <a href="javascript:void(0)" class="details-link" title="查看簡介"><i class="bx bxs-yin-yang"></i></a>
+            </div>
+          </div>
+
+          <div class="col-lg-4 col-md-6 portfolio-item filter-ChingRe" onclick ="openDialog('ShihGao');">
+            <img src="assets/img/medicine/_ShihGao.png" class="img-fluid" alt="">
+            <div class="portfolio-info">
+              <h4>石膏</h4>
+              <p>清熱瀉火</p>
+              <a href="javascript:void(0)" class="details-link" title="查看簡介"><i class="bx bxs-yin-yang"></i></a>
+            </div>
+          </div>
+
+          <div class="col-lg-4 col-md-6 portfolio-item filter-ChiTa" onclick ="openDialog('RouGuei');">
+            <img src="assets/img/medicine/_RouGuei.png" class="img-fluid" alt="">
+            <div class="portfolio-info">
+              <h4>肉桂</h4>
+              <p>溫裡</p>
+              <a href="javascript:void(0)" class="details-link" title="查看簡介"><i class="bx bxs-yin-yang"></i></a>
+            </div>
+          </div>
+
+          <div class="col-lg-4 col-md-6 portfolio-item filter-JiehBiao" onclick ="openDialog('ShengJiang');">
+            <img src="assets/img/medicine/_ShengJiang.png" class="img-fluid" alt="">
+            <div class="portfolio-info">
+              <h4>生薑</h4>
+              <p>辛溫解表</p>
+              <a href="javascript:void(0)" class="details-link" title="查看簡介"><i class="bx bxs-yin-yang"></i></a>
+            </div>
+          </div>
+
+          <div class="col-lg-4 col-md-6 portfolio-item filter-ChiTa" onclick ="openDialog('FuLing');">
+            <img src="assets/img/medicine/_FuLing.png" class="img-fluid" alt="">
+            <div class="portfolio-info">
+              <h4>茯苓</h4>
+              <p>利水滲濕</p>
+              <a href="javascript:void(0)" class="details-link" title="查看簡介"><i class="bx bxs-yin-yang"></i></a>
+            </div>
+          </div>
+
+          <div class="col-lg-4 col-md-6 portfolio-item filter-ChingRe" onclick ="openDialog('JinYinHua');">
+            <img src="assets/img/medicine/_JinYinHua.png" class="img-fluid" alt="">
+            <div class="portfolio-info">
+              <h4>金銀花</h4>
+              <p>清熱解毒</p>
+              <a href="javascript:void(0)" class="details-link" title="查看簡介"><i class="bx bxs-yin-yang"></i></a>
+            </div>
+          </div>
+
+          <div class="col-lg-4 col-md-6 portfolio-item filter-ChingRe" onclick ="openDialog('LianChao');">
+            <img src="assets/img/medicine/_LianChao.png" class="img-fluid" alt="">
+            <div class="portfolio-info">
+              <h4>連翹</h4>
+              <p>清熱解毒</p>
+              <a href="javascript:void(0)" class="details-link" title="查看簡介"><i class="bx bxs-yin-yang"></i></a>
+            </div>
+          </div>
+
+          <div class="col-lg-4 col-md-6 portfolio-item filter-BuYi" onclick ="openDialog('HuangChi');">
+            <img src="assets/img/medicine/_HuangChi.png" class="img-fluid" alt="">
+            <div class="portfolio-info">
+              <h4>黃耆</h4>
+              <p>補氣</p>
+              <a href="javascript:void(0)" class="details-link" title="查看簡介"><i class="bx bxs-yin-yang"></i></a>
+            </div>
+          </div>
+
+          <div class="col-lg-4 col-md-6 portfolio-item filter-BuYi" onclick ="openDialog('GanTsao');">
+            <img src="assets/img/medicine/_GanTsao.png" class="img-fluid" alt="">
+            <div class="portfolio-info">
+              <h4>甘草</h4>
+              <p>補氣</p>
+              <a href="javascript:void(0)" class="details-link" title="查看簡介"><i class="bx bxs-yin-yang"></i></a>
+            </div>
+          </div>
+
+          <div class="col-lg-4 col-md-6 portfolio-item filter-ChingRe" onclick ="openDialog('HuangLian');">
+            <img src="assets/img/medicine/_HuangLian.png" class="img-fluid" alt="">
+            <div class="portfolio-info">
+              <h4>黃連</h4>
+              <p>清熱燥濕</p>
+              <a href="javascript:void(0)" class="details-link" title="查看簡介"><i class="bx bxs-yin-yang"></i></a>
+            </div>
+          </div>
+
+          <div class="col-lg-4 col-md-6 portfolio-item filter-JiehBiao" onclick ="openDialog('BoHe');">
+            <img src="assets/img/medicine/_BoHe.png" class="img-fluid" alt="">
+            <div class="portfolio-info">
+              <h4>薄荷</h4>
+              <p>辛涼解表</p>
+              <a href="javascript:void(0)" class="details-link" title="查看簡介"><i class="bx bxs-yin-yang"></i></a>
+            </div>
+          </div>
+
+          <div class="col-lg-4 col-md-6 portfolio-item filter-BuYi" onclick ="openDialog('ShouDi');">
+            <img src="assets/img/medicine/_ShouDi.png" class="img-fluid" alt="">
+            <div class="portfolio-info">
+              <h4>熟地</h4>
+              <p>補血之君</p>
+              <a href="javascript:void(0)" class="details-link" title="查看簡介"><i class="bx bxs-yin-yang"></i></a>
+            </div>
+          </div>
+
+          <div class="col-lg-4 col-md-6 portfolio-item filter-JiehBiao" onclick ="openDialog('GeGen');">
+            <img src="assets/img/medicine/_GeGen.png" class="img-fluid" alt="">
+            <div class="portfolio-info">
+              <h4>葛根</h4>
+              <p>辛涼解表</p>
+              <a href="javascript:void(0)" class="details-link" title="查看簡介"><i class="bx bxs-yin-yang"></i></a>
+            </div>
+          </div>
+
+          <div class="col-lg-4 col-md-6 portfolio-item filter-ChiTa" onclick ="openDialog('ChuanSyong');">
+            <img src="assets/img/medicine/_ChuanSyong.png" class="img-fluid" alt="">
+            <div class="portfolio-info">
+              <h4>川芎</h4>
+              <p>活血化瘀</p>
+              <a href="javascript:void(0)" class="details-link" title="查看簡介"><i class="bx bxs-yin-yang"></i></a>
+            </div>
+          </div>
+
+          <div class="col-lg-4 col-md-6 portfolio-item filter-BuYi" onclick ="openDialog('DangGuei');">
+            <img src="assets/img/medicine/_DangGuei.png" class="img-fluid" alt="">
+            <div class="portfolio-info">
+              <h4>當歸</h4>
+              <p>補血</p>
+              <a href="javascript:void(0)" class="details-link" title="查看簡介"><i class="bx bxs-yin-yang"></i></a>
+            </div>
+          </div>
+
+          <div class="col-lg-4 col-md-6 portfolio-item filter-ChingRe" onclick ="openDialog('DanPi');">
+            <img src="assets/img/medicine/_DanPi.png" class="img-fluid" alt="">
+            <div class="portfolio-info">
+              <h4>丹皮</h4>
+              <p>清熱涼血</p>
+              <a href="javascript:void(0)" class="details-link" title="查看簡介"><i class="bx bxs-yin-yang"></i></a>
+            </div>
+          </div>
+
+          <div class="col-lg-4 col-md-6 portfolio-item filter-BuYi" onclick ="openDialog('GouChi');">
+            <img src="assets/img/medicine/_GouChi.png" class="img-fluid" alt="">
+            <div class="portfolio-info">
+              <h4>枸杞</h4>
+              <p>補陰</p>
+              <a href="javascript:void(0)" class="details-link" title="查看簡介"><i class="bx bxs-yin-yang"></i></a>
+            </div>
+          </div>
+
+          <div class="col-lg-4 col-md-6 portfolio-item filter-ChiTa" onclick ="openDialog('SanChi');">
+            <img src="assets/img/medicine/_SanChi.png" class="img-fluid" alt="">
+            <div class="portfolio-info">
+              <h4>三七</h4>
+              <p>止血</p>
+              <a href="javascript:void(0)" class="details-link" title="查看簡介"><i class="bx bxs-yin-yang"></i></a>
+            </div>
+          </div>
+
+          <div class="col-lg-4 col-md-6 portfolio-item filter-JiehBiao" onclick ="openDialog('ChaiHu');">
+            <img src="assets/img/medicine/_ChaiHu.png" class="img-fluid" alt="">
+            <div class="portfolio-info">
+              <h4>柴胡</h4>
+              <p>辛涼解表</p>
+              <a href="javascript:void(0)" class="details-link" title="查看簡介"><i class="bx bxs-yin-yang"></i></a>
+            </div>
+          </div>
+
+          <div class="col-lg-4 col-md-6 portfolio-item filter-ChingRe" onclick ="openDialog('ChingHao');">
+            <img src="assets/img/medicine/_ChingHao.png" class="img-fluid" alt="">
+            <div class="portfolio-info">
+              <h4>青蒿</h4>
+              <p>清虛熱</p>
+              <a href="javascript:void(0)" class="details-link" title="查看簡介"><i class="bx bxs-yin-yang"></i></a>
+            </div>
+          </div>
+
+          <div class="col-lg-4 col-md-6 portfolio-item filter-ChiTa" onclick ="openDialog('DaHuang');">
+            <img src="assets/img/medicine/_DaHuang.png" class="img-fluid" alt="">
+            <div class="portfolio-info">
+              <h4>大黃</h4>
+              <p>瀉下攻下</p>
+              <a href="javascript:void(0)" class="details-link" title="查看簡介"><i class="bx bxs-yin-yang"></i></a>
+            </div>
+          </div>
+
+        </div>
+
+      </div>
+    </section><!-- End Portfolio Section -->
+  </main><!-- End #main -->
+
+  <!-- ======= Footer ======= -->
+  <footer id="footer">
+    <div class="footer-top">
+      <div class="container">
+
+      </div>
+    </div>
+
+    <div class="container">
+      <div class="copyright">
+        &copy; Copyright <strong>Regna</strong>. All Rights Reserved
+      </div>
+      <div class="credits">
+        <!--
+        All the links in the footer should remain intact.
+        You can delete the links only if you purchased the pro version.
+        Licensing information: https://bootstrapmade.com/license/
+        Purchase the pro version with working PHP/AJAX contact form: https://bootstrapmade.com/buy/?theme=Regna
+      -->
+        Designed by <a href="https://bootstrapmade.com/">BootstrapMade</a>
+      </div>
+    </div>
+  </footer><!-- End Footer -->
+
+  <a href="#" class="back-to-top d-flex align-items-center justify-content-center"><i class="bi bi-arrow-up-short"></i></a>
+
+  <!-- Vendor JS Files -->
+  <script src="assets/vendor/aos/aos.js"></script>
+  <script src="assets/vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
+  <script src="assets/vendor/glightbox/js/glightbox.min.js"></script>
+  <script src="assets/vendor/isotope-layout/isotope.pkgd.min.js"></script>
+  <script src="assets/vendor/php-email-form/validate.js"></script>
+  <script src="assets/vendor/purecounter/purecounter.js"></script>
+  <script src="assets/vendor/swiper/swiper-bundle.min.js"></script>
+
+  <!-- Template Main JS File -->
+  <script src="assets/js/main.js"></script>
+
+</body>
+
 </html>
