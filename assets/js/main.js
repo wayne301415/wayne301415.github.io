@@ -352,6 +352,13 @@ function init()
         buttons[i].classList.remove("clicked");
       
       filled =Array(9);
+
+      window.document.getElementById("video").classList.add("notseen");
+      window.document.getElementById("video-player").src="";
+     
+      let subtitle =window.document.getElementById("qLSubtitle");
+      subtitle.innerHTML ="你喜歡以下哪個 ?";
+
     };
 
     let playAgainButton =window.document.getElementById("playAgain");
