@@ -24,7 +24,7 @@ function selected(property, value, btnNum)
     if(window.document.getElementById("video").classList.contains("notseen")){
       window.document.getElementById("video").classList.remove("notseen");
     }
-    window.document.getElementById("video-player").src="https://www.youtube.com/embed/cvh0nX08nRw?autoplay=1&mute=0&loop=1&playlist=cvh0nX08nRw";
+    window.document.getElementById("video-player").src="https://www.youtube.com/embed/HIcSWuKMwOw?autoplay=1&mute=0&loop=1&playlist=HIcSWuKMwOw";
     let subtitle =window.document.getElementById("qLSubtitle");
     subtitle.innerHTML ="Rick Astley may never begin to sing, but one thing is for sure: He's never gonna give it up."
   }
@@ -84,7 +84,7 @@ function openDialog(index)
    
    if(index === "GueiJhih")
    {
-      picture.src ="assets/img/medicine/_GueiJhih.png";
+      picture.src ="assets/img/medicine/GueiJhih.jpg";
       description1.innerHTML ="樟科植物肉桂之乾燥嫩枝。";
       description2.innerHTML ="性味辛、甘、溫。歸心、肺、膀胱經。";
       description3.innerHTML ="為辛溫解表藥，能發汗散寒、溫通經脈、助陽化氣。主治風寒感冒、風寒濕痹，及脘腹冷痛、血寒經閉。";
@@ -92,7 +92,7 @@ function openDialog(index)
    }
    else if(index === "MaHuang")
    {
-      picture.src ="assets/img/medicine/_MaHuang.png";
+      picture.src ="assets/img/medicine/MaHuang.jpg";
       description1.innerHTML ="麻黃科植物草麻黃、中麻黃或木賊麻黃之乾燥草質莖。";
       description2.innerHTML ="性味辛、微苦、溫。歸肺、膀胱經。";
       description3.innerHTML ="為辛溫解表藥，發汗能力甚強，亦能宣肺平喘，利水消腫。主治風寒感冒、風濕浮腫、胸悶喘咳、哮喘。";
@@ -100,7 +100,7 @@ function openDialog(index)
    }
    else if(index === "ShengJiang")
    {
-      picture.src ="assets/img/medicine/_ShengJiang.png";
+      picture.src ="assets/img/medicine/ShengJiang.jpg";
       description1.innerHTML ="薑科植物薑之新鮮根莖。";
       description2.innerHTML ="性味辛、溫。歸肺、脾、胃經。";
       description3.innerHTML ="為辛溫解表藥，亦有溫中止嘔、溫肺止咳之效。主治風寒感冒、胃寒嘔吐、風寒咳嗽。";
@@ -108,7 +108,7 @@ function openDialog(index)
    }
    else if(index === "ChaiHu")
    {
-      picture.src ="assets/img/medicine/_ChaiHu.png";
+      picture.src ="assets/img/medicine/ChaiHu.jpg";
       description1.innerHTML ="繖形科植物柴胡或狹葉柴胡之乾燥根。有北柴胡及南柴胡。";
       description2.innerHTML ="性味苦、辛、微寒。歸肝、膽經。";
       description3.innerHTML ="為辛涼解表藥，亦能升陽舉陷，然更常取其疏肝解鬱之效。主治感冒發熱、肝鬱氣滯、寒熱往來、胸脅脹痛、子宮脫垂、脫肛。";
@@ -116,7 +116,7 @@ function openDialog(index)
    }
    else if(index === "BoHe")
    {
-      picture.src ="assets/img/medicine/_BoHe.png";
+      picture.src ="assets/img/medicine/BoHe.jpg";
       description1.innerHTML ="唇形科植物薄荷及同屬近緣植物之乾燥地上部分。";
       description2.innerHTML ="性味辛、涼。歸肺、肝經。";
       description3.innerHTML ="為辛涼解表藥，能疏散風熱，清利頭目，利咽，透疹，疏肝解鬱。主治風熱感冒、頭痛目赤、咽喉腫痛、麻疹風疹、肝鬱氣滯、胸悶脅痛。";
@@ -124,7 +124,7 @@ function openDialog(index)
    }
    else if(index === "GeGen")
    {
-      picture.src ="assets/img/medicine/_GeGen.png";
+      picture.src ="assets/img/medicine/GeGen.jpg";
       description1.innerHTML ="豆科植物野葛或甘葛藤之乾燥根。";
       description2.innerHTML ="性味甘、辛、涼。歸脾、胃經。能解肌退熱，透發麻疹，生津止渴，升陽止瀉。";
       description3.innerHTML ="為辛涼解表藥，主治外感、麻疹初起，消渴，熱泄熱痢，脾虛泄瀉。";
@@ -132,7 +132,7 @@ function openDialog(index)
    }
    else if(index === "ShihGao")
    {
-      picture.src ="assets/img/medicine/_ShihGao.png";
+      picture.src ="assets/img/medicine/ShihGao.jpg";
       description1.innerHTML ="含水硫酸鈣 (CaSO<sub>4</sub>‧2H<sub>2</sub>O) 之礦石。";
       description2.innerHTML ="性味辛、甘、大寒。歸肺、胃經。能清裡熱，除煩止渴，收斂生肌。";
       description3.innerHTML ="為清熱瀉火藥，主治外感、麻疹初起，壯熱煩渴，肺熱喘咳，胃火牙痛，瘡瘍潰爛，疹浸淫，水火燙傷。";
@@ -140,7 +140,7 @@ function openDialog(index)
    }
    else if(index === "JinYinHua")
    {
-      picture.src ="assets/img/medicine/_JinYinHua.png";
+      picture.src ="assets/img/medicine/JinYinHua.jpg";
       description1.innerHTML ="忍冬科植物忍冬之乾燥花蕾或待初開的花。初開白，而後變黃，故稱金銀。";
       description2.innerHTML ="性味甘、寒。歸肺、心、胃經。能清熱解毒，疏散風熱。";
       description3.innerHTML ="為清熱解毒藥，主治癰腫疔瘡，外感風熱，溫病初起，熱毒血痢。治療癰瘡初起腫痛者，可單用煎服，或以渣敷於患處。";
@@ -148,7 +148,7 @@ function openDialog(index)
    }
    else if(index === "LianChao")
    {
-      picture.src ="assets/img/medicine/_LianChao.png";
+      picture.src ="assets/img/medicine/LianChao.jpg";
       description1.innerHTML ="木犀科植物連翹之乾燥果實。";
       description2.innerHTML ="性味苦、微寒。歸肺、心、小腸經。能清熱解毒，消癰散結，疏散風熱。";
       description3.innerHTML ="為清熱解毒藥，主治癰腫瘡毒，溫病初起，熱淋澀痛。";
@@ -156,7 +156,7 @@ function openDialog(index)
    }
    else if(index === "HuangLian")
    {
-      picture.src ="assets/img/medicine/_HuangLian.png";
+      picture.src ="assets/img/medicine/HuangLian.jpg";
       description1.innerHTML ="毛茛科植物黃連 、三角葉黃連或雲連之乾燥根莖。";
       description2.innerHTML ="性味苦、寒。歸心、脾、胃、肝、膽、大腸經。能瀉心火、中焦火，亦能解毒。";
       description3.innerHTML ="為清熱燥濕藥，主治脾胃大腸濕熱，瀉痢嘔吐，狂熱心煩，癰疽疔毒，皮膚濕瘡。";
@@ -164,7 +164,7 @@ function openDialog(index)
    }
    else if(index === "DanPi")
    {
-      picture.src ="assets/img/medicine/_DanPi.png";
+      picture.src ="assets/img/medicine/DanPi.jpg";
       description1.innerHTML ="即牡丹皮，毛茛科植物牡丹之乾燥根皮。";
       description2.innerHTML ="性味苦、辛、微寒。歸心、肝、腎經。能清熱涼血，活血散瘀。";
       description3.innerHTML ="為清熱涼血藥，主治斑疹吐衄，溫邪傷陰，陰虛發熱，血滯經閉，痛經，跌打損傷，癰瘍腫毒，腸癰腹痛。";
@@ -172,7 +172,7 @@ function openDialog(index)
    }
    else if(index === "ChingHao")
    {
-      picture.src ="assets/img/medicine/_ChingHao.png";
+      picture.src ="assets/img/medicine/ChingHao.jpg";
       description1.innerHTML ="菊科植物黃花蒿之乾燥地上部分。";
       description2.innerHTML ="性味苦、辛、寒。歸肝、膽、腎經。能清陰虛潮熱，除骨蒸，解暑，截瘧。";
       description3.innerHTML ="為清虛熱藥，主治清溫病後期，溫邪傷陰，餘熱未清，或用於瘧疾寒熱。";
@@ -180,7 +180,7 @@ function openDialog(index)
    }
    else if(index === "RenShen")
    {
-      picture.src ="assets/img/medicine/_RenShen.png";
+      picture.src ="assets/img/medicine/RenShen.jpg";
       description1.innerHTML ="五加科植物人參之乾燥根及根莖。";
       description2.innerHTML ="性味甘、微苦、微溫。歸脾、肺、心經。能大補元氣，補脾益肺，生津，安神。";
       description3.innerHTML ="為補氣藥，能治氣津兩傷，氣虛欲脫，脈微欲絕之重危證候，或一切氣虛證候。";
@@ -188,7 +188,7 @@ function openDialog(index)
    }
    else if(index === "HuangChi")
    {
-      picture.src ="assets/img/medicine/_HuangChi.png";
+      picture.src ="assets/img/medicine/HuangChi.jpg";
       description1.innerHTML ="豆科植物蒙古黃耆或膜莢黃耆之乾燥根。";
       description2.innerHTML ="性味甘，微溫。歸脾、肺經。能補氣升陽，益衛固表，利水消腫，托瘡生肌。";
       description3.innerHTML ="為補氣藥，主治脾胃氣虛，中氣下陷，表虛自汗，氣虛水濕失運之浮腫、小便不利。";
@@ -196,7 +196,7 @@ function openDialog(index)
    }
    else if(index === "GanTsao")
    {
-      picture.src ="assets/img/medicine/_GanTsao.png";
+      picture.src ="assets/img/medicine/GanTsao.jpg";
       description1.innerHTML ="豆科植物甘草、脹果甘草或光果甘草之乾燥根及根莖。";
       description2.innerHTML ="性味甘、平。歸心、肺、脾、胃經。能緩急止痛，調和藥性，清熱，益氣補中，祛痰止咳。";
       description3.innerHTML ="甘草為補氣藥，主治心氣不足，脘腹、四肢攣急作痛。炙甘草 (右下者) 加強了補氣力道，生甘草則偏於清熱，治咽喉腫痛。此外甘草在許多方劑中扮演調和諸藥的角色。";
@@ -204,7 +204,7 @@ function openDialog(index)
    }
    else if(index === "ShouDi")
    {
-      picture.src ="assets/img/medicine/_ShouDi.png";
+      picture.src ="assets/img/medicine/ShouDi.jpg";
       description1.innerHTML ="為生地黃 (地黃之新鮮或乾燥塊根) 加黃酒拌蒸，至內外色黑、油潤，或直接蒸至黑潤而成。";
       description2.innerHTML ="性味甘、微溫，歸肝、腎經。能補血滋陰，益精填髓。";
       description3.innerHTML ="為補血藥，主治血虛萎黃，眩暈，心悸失眠，月經不調，崩漏，腎陰不足，肝腎精血虧虛。";
@@ -212,7 +212,7 @@ function openDialog(index)
    }
    else if(index === "DangGuei")
    {
-      picture.src ="assets/img/medicine/_DangGuei.png";
+      picture.src ="assets/img/medicine/DangGuei.jpg";
       description1.innerHTML ="繖形科植物當歸之乾燥根。";
       description2.innerHTML ="性味甘、辛、溫。歸肝、心、脾經。能補血，活血，調經，止痛，潤腸。";
       description3.innerHTML ="為補血藥，主治心肝血虛，面色萎黃，眩暈心悸，月經不調，痛經，經閉，血虛腸燥便秘。";
@@ -220,7 +220,7 @@ function openDialog(index)
    }
    else if(index === "GouChi")
    {
-      picture.src ="assets/img/medicine/_GouChi.png";
+      picture.src ="assets/img/medicine/GouChi.jpg";
       description1.innerHTML ="茄科植物枸杞或寧夏枸杞之乾燥成熟果實。";
       description2.innerHTML ="性味甘、平。歸肝、腎經。能補肝腎，以及明目。";
       description3.innerHTML ="為補陰藥，主治肝腎不足，腰酸遺精，頭暈目眩，視力減退，內障目昏，消渴。";
@@ -228,7 +228,7 @@ function openDialog(index)
    }
    else if(index === "BanSia")
    {
-      picture.src ="assets/img/medicine/_BanSia.png";
+      picture.src ="assets/img/medicine/BanSia.jpg";
       description1.innerHTML ="天南星科植物半夏之乾燥塊莖。";
       description2.innerHTML ="性味辛、溫。具毒性。歸脾、胃、肺經。";
       description3.innerHTML ="為祛痰藥，能燥濕化痰，降逆止嘔，消痞散結。主治濕痰寒痰、胃氣上逆、心下痞、梅核氣。";
@@ -236,7 +236,7 @@ function openDialog(index)
    }
    else if(index === "FuLing")
    {
-      picture.src ="assets/img/medicine/_FuLing.png";
+      picture.src ="assets/img/medicine/FuLing.jpg";
       description1.innerHTML ="多孔菌科真菌茯苓的茵核，多寄生於赤松或馬尾松等樹根上。反覆晾至全乾後生用。";
       description2.innerHTML ="性味甘、淡、平。歸心、脾、腎經。";
       description3.innerHTML ="為利水滲濕藥，同時也兼具健脾安神之效。主治各種水腫、脾虛水泛、水濕不運等水症。";
@@ -244,7 +244,7 @@ function openDialog(index)
    }
    else if(index === "RouGuei")
    {
-      picture.src ="assets/img/medicine/_RouGuei.png";
+      picture.src ="assets/img/medicine/RouGuei.jpg";
       description1.innerHTML ="樟科植物肉桂之乾燥樹皮。習稱「桂皮」。";
       description2.innerHTML ="性味辛、甘、大熱。歸腎、脾、心、肝經。能補火助陽，散寒止痛，溫經通脈。";
       description3.innerHTML ="為溫裡藥，主治腎陽衰弱，心腹冷癰，寒疝作痛，寒痹腰痛、胸痹、陰疽，閉經，痛經。";
@@ -252,7 +252,7 @@ function openDialog(index)
    }
    else if(index === "ChuanSyong")
    {
-      picture.src ="assets/img/medicine/_ChuanSyong.png";
+      picture.src ="assets/img/medicine/ChuanSyong.jpg";
       description1.innerHTML ="繖形科植物川芎之乾燥根莖。";
       description2.innerHTML ="性味辛、溫。歸肝、膽、心包經。能活血行氣，祛風止痛。";
       description3.innerHTML ="為活血化瘀藥，主治血瘀氣滯之痛證，頭痛，風濕痹痛，中風。";
@@ -260,7 +260,7 @@ function openDialog(index)
    }
    else if(index === "SanChi")
    {
-      picture.src ="assets/img/medicine/_SanChi.png";
+      picture.src ="assets/img/medicine/SanChi.jpg";
       description1.innerHTML ="五加科植物三七之乾燥根及根莖。生長三年後方可採收。";
       description2.innerHTML ="性味甘、微苦、溫。歸肝、胃經。能化瘀止血，活血定痛。";
       description3.innerHTML ="為補血藥，主治內外出血有瘀，跌打損傷，瘀滯疼痛，缺血性腦血管病，血瘀型慢性肝炎，子宮脫垂。各種內外出血證，以三七單味內服外用即可奏效。";
@@ -268,7 +268,7 @@ function openDialog(index)
    }
    else if(index === "DaHuang")
    {
-      picture.src ="assets/img/medicine/_DaHuang.png";
+      picture.src ="assets/img/medicine/DaHuang.jpg";
       description1.innerHTML ="蓼科植物掌葉大黃 (北大黃)、唐古特大黃或藥用大黃 (南大黃) 去外皮之乾燥根及根莖。";
       description2.innerHTML ="性味苦、寒。歸脾、胃、大腸、肝、心包經。能瀉下攻積，清熱瀉火，止血，解毒，活血祛瘀。";
       description3.innerHTML ="為攻下藥，主治大便秘結，胃腸積滯，血熱妄行，熱毒瘡瘍，瘀血證。藉瀉下排除體內、腸內之濕熱。";
